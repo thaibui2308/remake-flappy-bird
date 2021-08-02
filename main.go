@@ -155,7 +155,7 @@ func newGame() *Game {
 
 func main() {
 	ebiten.SetWindowSize(screenWidth, screenHeight)
-	ebiten.SetWindowTitle("Dumb Shit")
+	ebiten.SetWindowTitle("Floppy Bob")
 
 	if err := ebiten.RunGame(newGame()); err != nil {
 		log.Fatal(err)
